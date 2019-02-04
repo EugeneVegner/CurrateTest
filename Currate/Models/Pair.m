@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Pair.m
 //  Currate
 //
 //  Created by Eugene Vegner on 2/4/19.
 //  Copyright © 2019 Eugene Vegner. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Pair.h"
 
-@interface ViewController : UIViewController
-
+@implementation Pair
 
 @end
-

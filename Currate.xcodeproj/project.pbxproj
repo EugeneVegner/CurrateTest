@@ -8,27 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		1E6628962208C697006939C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628952208C697006939C8 /* AppDelegate.m */; };
-		1E6628992208C697006939C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628982208C697006939C8 /* ViewController.m */; };
-		1E66289C2208C697006939C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E66289A2208C697006939C8 /* Main.storyboard */; };
 		1E66289E2208C698006939C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E66289D2208C698006939C8 /* Assets.xcassets */; };
 		1E6628A12208C698006939C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E66289F2208C698006939C8 /* LaunchScreen.storyboard */; };
 		1E6628A42208C698006939C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628A32208C698006939C8 /* main.m */; };
-		1E6628AD2208C7AE006939C8 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628AC2208C7AE006939C8 /* Currency.m */; };
+		1E6628B72208C9AA006939C8 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628B62208C9AA006939C8 /* InfoViewController.m */; };
+		1E6628BA2208C9B7006939C8 /* PairsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628B92208C9B7006939C8 /* PairsViewController.m */; };
+		1E6628BF2208C9E8006939C8 /* PairTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628BE2208C9E8006939C8 /* PairTableViewCell.m */; };
+		1E6628C22208CA03006939C8 /* Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628C12208CA03006939C8 /* Pair.m */; };
+		1E6628C52208CB62006939C8 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628C42208CB62006939C8 /* Service.m */; };
+		1E6628C92208D39C006939C8 /* PairListFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628C82208D39C006939C8 /* PairListFooterView.m */; };
+		1E6628CC2208DAA6006939C8 /* Api.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628CB2208DAA6006939C8 /* Api.m */; };
+		1E6628CF2208F2FE006939C8 /* Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6628CE2208F2FE006939C8 /* Alerts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E6628912208C697006939C8 /* Currate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6628942208C697006939C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E6628952208C697006939C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E6628972208C697006939C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E6628982208C697006939C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1E66289B2208C697006939C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E66289D2208C698006939C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E6628A02208C698006939C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E6628A22208C698006939C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E6628A32208C698006939C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1E6628AB2208C7AE006939C8 /* Currency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
-		1E6628AC2208C7AE006939C8 /* Currency.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+		1E6628B52208C9AA006939C8 /* InfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		1E6628B62208C9AA006939C8 /* InfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		1E6628B82208C9B7006939C8 /* PairsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PairsViewController.h; sourceTree = "<group>"; };
+		1E6628B92208C9B7006939C8 /* PairsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PairsViewController.m; sourceTree = "<group>"; };
+		1E6628BD2208C9E8006939C8 /* PairTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PairTableViewCell.h; sourceTree = "<group>"; };
+		1E6628BE2208C9E8006939C8 /* PairTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PairTableViewCell.m; sourceTree = "<group>"; };
+		1E6628C02208CA03006939C8 /* Pair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pair.h; sourceTree = "<group>"; };
+		1E6628C12208CA03006939C8 /* Pair.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pair.m; sourceTree = "<group>"; };
+		1E6628C32208CB62006939C8 /* Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		1E6628C42208CB62006939C8 /* Service.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		1E6628C72208D39C006939C8 /* PairListFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PairListFooterView.h; sourceTree = "<group>"; };
+		1E6628C82208D39C006939C8 /* PairListFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PairListFooterView.m; sourceTree = "<group>"; };
+		1E6628CA2208DAA6006939C8 /* Api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Api.h; sourceTree = "<group>"; };
+		1E6628CB2208DAA6006939C8 /* Api.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Api.m; sourceTree = "<group>"; };
+		1E6628CD2208F2FE006939C8 /* Alerts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alerts.h; sourceTree = "<group>"; };
+		1E6628CE2208F2FE006939C8 /* Alerts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alerts.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +81,12 @@
 				1E6628AA2208C791006939C8 /* Models */,
 				1E6628942208C697006939C8 /* AppDelegate.h */,
 				1E6628952208C697006939C8 /* AppDelegate.m */,
-				1E6628972208C697006939C8 /* ViewController.h */,
-				1E6628982208C697006939C8 /* ViewController.m */,
-				1E66289A2208C697006939C8 /* Main.storyboard */,
+				1E6628C32208CB62006939C8 /* Service.h */,
+				1E6628C42208CB62006939C8 /* Service.m */,
+				1E6628CA2208DAA6006939C8 /* Api.h */,
+				1E6628CB2208DAA6006939C8 /* Api.m */,
+				1E6628CD2208F2FE006939C8 /* Alerts.h */,
+				1E6628CE2208F2FE006939C8 /* Alerts.m */,
 				1E66289D2208C698006939C8 /* Assets.xcassets */,
 				1E66289F2208C698006939C8 /* LaunchScreen.storyboard */,
 				1E6628A22208C698006939C8 /* Info.plist */,
@@ -79,8 +98,8 @@
 		1E6628AA2208C791006939C8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1E6628AB2208C7AE006939C8 /* Currency.h */,
-				1E6628AC2208C7AE006939C8 /* Currency.m */,
+				1E6628C02208CA03006939C8 /* Pair.h */,
+				1E6628C12208CA03006939C8 /* Pair.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -88,8 +107,64 @@
 		1E6628AF2208C7BC006939C8 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				1E6628BB2208C9C8006939C8 /* CustomUI */,
+				1E6628B02208C954006939C8 /* Controllers */,
 			);
 			path = GUI;
+			sourceTree = "<group>";
+		};
+		1E6628B02208C954006939C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E6628B42208C983006939C8 /* Info */,
+				1E6628B32208C97E006939C8 /* Pairs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1E6628B32208C97E006939C8 /* Pairs */ = {
+			isa = PBXGroup;
+			children = (
+				1E6628B82208C9B7006939C8 /* PairsViewController.h */,
+				1E6628B92208C9B7006939C8 /* PairsViewController.m */,
+			);
+			path = Pairs;
+			sourceTree = "<group>";
+		};
+		1E6628B42208C983006939C8 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				1E6628B52208C9AA006939C8 /* InfoViewController.h */,
+				1E6628B62208C9AA006939C8 /* InfoViewController.m */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		1E6628BB2208C9C8006939C8 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				1E6628C62208D363006939C8 /* Views */,
+				1E6628BC2208C9D0006939C8 /* Cells */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		1E6628BC2208C9D0006939C8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1E6628BD2208C9E8006939C8 /* PairTableViewCell.h */,
+				1E6628BE2208C9E8006939C8 /* PairTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1E6628C62208D363006939C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E6628C72208D39C006939C8 /* PairListFooterView.h */,
+				1E6628C82208D39C006939C8 /* PairListFooterView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +226,6 @@
 			files = (
 				1E6628A12208C698006939C8 /* LaunchScreen.storyboard in Resources */,
 				1E66289E2208C698006939C8 /* Assets.xcassets in Resources */,
-				1E66289C2208C697006939C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E6628AD2208C7AE006939C8 /* Currency.m in Sources */,
-				1E6628992208C697006939C8 /* ViewController.m in Sources */,
 				1E6628A42208C698006939C8 /* main.m in Sources */,
+				1E6628B72208C9AA006939C8 /* InfoViewController.m in Sources */,
+				1E6628CF2208F2FE006939C8 /* Alerts.m in Sources */,
+				1E6628BA2208C9B7006939C8 /* PairsViewController.m in Sources */,
+				1E6628C22208CA03006939C8 /* Pair.m in Sources */,
+				1E6628C52208CB62006939C8 /* Service.m in Sources */,
+				1E6628C92208D39C006939C8 /* PairListFooterView.m in Sources */,
+				1E6628CC2208DAA6006939C8 /* Api.m in Sources */,
+				1E6628BF2208C9E8006939C8 /* PairTableViewCell.m in Sources */,
 				1E6628962208C697006939C8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,14 +252,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E66289A2208C697006939C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E66289B2208C697006939C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E66289F2208C698006939C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

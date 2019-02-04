@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "PairsViewController.h"
+//#import <GUI/Controllers/Pairs/PairsViewController.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +18,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    PairsViewController *root = [[PairsViewController alloc] init];
+    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController: root];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:navigation];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
